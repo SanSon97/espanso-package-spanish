@@ -28,3 +28,8 @@ matches:
     replace: "Ó"
   - trigger: "U'"
     replace: "Ú"
+  - trigger: "=+" # This is a special character that is not in the keyboard
+    replace: "¿"
+  - trigger: "~!" # This is a special character that is not in the keyboard
+    replace: "¡"
+  
